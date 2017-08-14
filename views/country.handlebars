@@ -1,0 +1,10 @@
+<h1>This is the {{{name}}} page</h1>
+
+<p>{{{description}}}</p>
+
+{{#each page_content}}
+	<h1>{{section}}</h1>
+	{{#each content}}
+		<p>{{{body}}} </p>
+	{{/each}}
+{{/each}}
